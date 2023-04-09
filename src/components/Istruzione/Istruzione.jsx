@@ -31,7 +31,7 @@ const Istruzione = () => {
                         </div>
 
 
-                        <div className="resume-item d-flex flex-column flex-md-row">
+                        <div className="resume-item d-flex flex-column flex-md-row mb-5">
                             <div className="resume-content mr-auto">
                                 <h3 className="mb-0">Certificazione di Cisco CCNA</h3>
                                 <div className="subheading mb-3">Cisco Certification</div>
@@ -45,7 +45,7 @@ const Istruzione = () => {
                             </div>
                         </div>
 
-                        <div className="resume-item d-flex flex-column flex-md-row">
+                        <div className="resume-item d-flex flex-column flex-md-row mb-5">
                             <div className="resume-content mr-auto">
                                 <h3 className="mb-0">Attestao Corso online "CSS"</h3>
                                 <div className="subheading mb-3">Video-Corsi</div>
@@ -56,7 +56,7 @@ const Istruzione = () => {
                             </div>
                         </div>
 
-                        <div className="resume-item d-flex flex-column flex-md-row">
+                        <div className="resume-item d-flex flex-column flex-md-row mb-5">
                             <div className="resume-content mr-auto">
                                 <h3 className="mb-0">Academy PDL</h3>
                                 <div className="subheading mb-3">NETGROUP SPA</div>
@@ -72,7 +72,7 @@ const Istruzione = () => {
                             </div>
                         </div>
 
-                        <div className="resume-item d-flex flex-column flex-md-row">
+                        <div className="resume-item d-flex flex-column flex-md-row mb-5">
                             <div className="resume-content mr-auto">
                                 <h3 className="mb-0">Attestato frequenza corso "Cisco CCNA"</h3>
                                 <div className="subheading mb-3">Istituto Volta</div>
@@ -90,7 +90,7 @@ const Istruzione = () => {
                             </div>
                         </div>
 
-                        <div className="resume-item d-flex flex-column flex-md-row">
+                        <div className="resume-item d-flex flex-column flex-md-row mb-5">
                             <div className="resume-content mr-auto">
                                 <h3 className="mb-0">Diploma Matematica Fisica (scientifico)</h3>
                                 <div className="subheading mb-3">Istituto Naraghi</div>

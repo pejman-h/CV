@@ -1,15 +1,16 @@
 import ReactDOM from "react-dom/client";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Altre_Competenze from "./Altre_Competenze/Altre_Competenze";
+import Altre_Competenze from "./components/Altre_Competenze/Altre_Competenze";
 
 import './App.css';
+import './Navbar.css';
 import Esperienze from './components/Esperienze/Esperienze';
 import Istruzione from "./components/Istruzione/Istruzione";
-/* import Layout from "./components/Layout/Layout"; */
-import Navbar from './components/Navbar/Navbar';
+import Navbar from './components/Navbar';
 import Profilo from './components/Profilo';
-import Hobby from "./Hobby/Hobby";
-import Skills from "./Skills";
+import Hobby from "./components/Hobby/Hobby";
+
+import Skills from "./components/Skills";
 
 
 function App() {
@@ -24,12 +25,13 @@ function App() {
           <Route path="Skills" element={<Skills />} />
           <Route path="Hobby" element={<Hobby />} />
           <Route path="altrecompetenze" element={<Altre_Competenze />} />
-         {/*  <Route path="*" element={<NoPage />} /> */}
+         
         </Route>
       </Routes>
 
     </>
     </BrowserRouter>
+  
   );
 }
 

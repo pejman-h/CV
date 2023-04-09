@@ -74,6 +74,7 @@ h2 {
     flex-direction: column;
     width: 17rem;
     height: 100vh;
+    /* padding-bottom: 10rem; */
   }
   #sideNav .navbar-brand {
     display: flex;

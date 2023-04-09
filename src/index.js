@@ -4,9 +4,7 @@ import './index.css';
 import './devicon.css';
 import './simple.css';
 
-/* import 'jquery/dist/jquery.min.js';
-import 'bootstrap/dist/js/bootstrap.bundle.js'; */
-/* import 'bootstrap/dist/css/bootstrap.min.css'; */
+
 
 import App from './App';
 
