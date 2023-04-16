@@ -4,12 +4,12 @@ function Profilo() {
 
       <div className="container-fluid p-0">
 
-        <section className="resume-section p-3 p-lg-5 d-flex d-column" id="about">
+        <section className="resume-section p-3 p-lg-5 d-flex flex-column" id="profilo">
           <div className="my-auto">
-            <h1 className="mb-0">Pejman
-              <span className="text-primary">Honarpajuh</span>
+            <h1 className="mb-5">Pejman
+              <span className="text-primary p-1">Honarpajuh</span>
             </h1>
-            <div className="subheading mb-5">Nazionalità: Italiana, Iraniana - Data di nascita: 24/08/1977 - 00041 Albano Laziale(RM) Italia - Mobil:+39 3342499682 ·
+            <div className="subheading mb-3">Nazionalità: Italiana, Iraniana - Data di nascita: 24/08/1977 - 00041 Albano Laziale(RM) Italia - Mobil:+39 3342499682 ·
               <a href="mailto:honarpajuhpejman@gmail.com">honarpajuhpejman@gmail.com</a>
             </div>
             <p className="mb-5">Dopo la brutta esperienza del Covid ho deciso di riprendere a studiare per poter lavorare nel mondo  IT

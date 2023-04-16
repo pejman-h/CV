@@ -40,9 +40,6 @@ const Skills = () => {
               <i className="devicons devicons-angular"></i>
             </li>
             <li className="list-inline-item">
-              <i className="devicons devicons-npm"></i>
-            </li>
-            <li className="list-inline-item">
               <i className="devicons devicons-photoshop"></i>
             </li>
             <li className="list-inline-item">
@@ -63,7 +60,7 @@ const Skills = () => {
               <b>Framework e Librerie: </b>Bootstrap , JQuery / React,Angular</li>
             <li>
               <i className="fa-li fa fa-check"></i>
-              <b>Versioning: </b>Git,GitUhb</li>
+              <b>Versioning: </b>Git&GitHub</li>
             <li>
               <i className="fa-li fa fa-check"></i>
               <b>IDE/editor: </b>Visual Studio Cod, <b>Cisco Packet Tracer</b>, Adobe Fotoshop,adobe illustrator</li>

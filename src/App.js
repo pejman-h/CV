@@ -13,6 +13,7 @@ import Hobby from "./components/Hobby/Hobby";
 import Skills from "./components/Skills";
 
 
+
 function App() {
   return (
     <BrowserRouter>
@@ -28,7 +29,7 @@ function App() {
          
         </Route>
       </Routes>
-
+   
     </>
     </BrowserRouter>
   
