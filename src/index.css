@@ -4,6 +4,10 @@
  */
 /* FONT PATH
  * -------------------------- */
+html {
+  scroll-behavior: smooth;
+}
+
  @font-face {
     font-family: 'FontAwesome';
     src: url('/public/vendor/font-awesome/fonts/fontawesome-webfont.eot?v=4.7.0');

@@ -1,12 +1,34 @@
 
-#menu .menu  {
+ #ul  {
+    margin: 0;
+    padding: 0;
+    list-style: none;
     max-height: 0;
     transition: max-height .5s ease-out ;
     visibility:collapse;
    /*  display: none; */
   
 }
-#menu .menu li {
+#ul-ap {
+    max-height: 15rem;
+    visibility: visible;
+    display: block;
+}
+
+.display {
+    background-color: aqua;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    max-height: 0;
+    transition: max-height .5s ease-out ;
+    visibility:collapse;
+}
+.nav-link{
+    padding:.5rem 0rem ;
+   
+}
+#menu #ul li {
     transition-delay: .2s;
 }
 
@@ -48,41 +70,43 @@
     top: -.3125rem;
 }
 
-#sideNav .menu-btn {
+#sideNav #menu-btn {
     display: none;
 }
-#sideNav .menu-btn:checked ~ #menu .menu  {
+#sideNav #menu-btn:checked ~ #menu #ul  {
     max-height: 15rem;
     visibility: visible;
     display: block;
 
 }
 
-#sideNav .menu-btn:checked ~ .menu-icon .nav-icon {
+#sideNav #menu-btn:checked ~ .menu-icon .nav-icon {
     background-color: transparent;
 }
-#sideNav .menu-btn:checked ~ .menu-icon .nav-icon::before {
+#sideNav #menu-btn:checked ~ .menu-icon .nav-icon::before {
     transform: rotate(-45deg);
     top: 0;
 }
-#sideNav .menu-btn:checked ~ .menu-icon .nav-icon::after {
+#sideNav #menu-btn:checked ~ .menu-icon .nav-icon::after {
     transform: rotate(45deg);
     top: 0;
 }
 
-
+#sideNav #menu #ul .nav-item a:hover ,a:focus ,a:active{
+    color: #757b80;
+  }
 
 
 @media screen and (Min-width: 992px) {
 
-    #sideNav .menu-btn {
+    #sideNav #menu-btn {
         display: none;
     }
 
     #sideNav .menu-icon {
         display: none;
     }
-    #menu .menu {
+    #menu #ul {
         visibility: visible;
         max-height: 100vh;
         transition: max-height .0s ease-out ;

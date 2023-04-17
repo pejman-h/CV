@@ -29,7 +29,7 @@ const Altre_Competenze = () => {
       <li>
         <i className="fa-li fa fa-check"></i>
         <b>Pianificazione: </b>l'organizzazione di eventi promozionali e fiere mi hanno dato la possibilità di formarmi nella 
-        pianificazione del lavoro e nell'organizzazione e cordinazione del personale.
+        pianificazione del lavoro e nell'organizzazione e coordinazione del personale.
       </li>
     </ul>
   </div>
@@ -56,7 +56,7 @@ const Altre_Competenze = () => {
       <li>
         <i className="fa-li fa fa-check"></i>
         <b>Rispetto: </b>Ho avuto la fortuna di lavorare in tantissime città e conoscere tantissime persone, italiane e stranieri, ho 
-        imparato che è importantissimo rispettare e mai giudicare le scelte altrui anzi ritengo sia un arrichimento personale avere la 
+        imparato che è importantissimo rispettare e mai giudicare le scelte altrui anzi ritengo sia un arricchimento personale avere la 
         possibilità di stare a contatto e conoscere persone con differenti abitudini e tradizioni.
         </li>
     </ul>

@@ -10,10 +10,10 @@ function Profilo() {
               <span className="text-primary p-1">Honarpajuh</span>
             </h1>
             <div className="subheading mb-3">Nazionalità: Italiana, Iraniana - Data di nascita: 24/08/1977 - 00041 Albano Laziale(RM) Italia - Mobil:+39 3342499682 ·
-              <a href="mailto:honarpajuhpejman@gmail.com">honarpajuhpejman@gmail.com</a>
+              <a id ='email' href="mailto:honarpajuhpejman@gmail.com">honarpajuhpejman@gmail.com</a>
             </div>
             <p className="mb-5">Dopo la brutta esperienza del Covid ho deciso di riprendere a studiare per poter lavorare nel mondo  IT
-              che sempre stato la mia passione e pararellelamente al mio lavoro ho sempre coltivato come hobby.
+              che sempre stato la mia passione e parallelamente al mio lavoro ho sempre coltivato come hobby.
               Ho conseguito la certificazione <b>'Cisco CCNA'</b> e altri attestati come <b>'Front-end Developer'</b>
               per poter lavorare in questo mondo affascinante IT.</p>
             <ul className="list-inline list-social-icons mb-0">

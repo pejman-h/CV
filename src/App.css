@@ -59,7 +59,7 @@ h2 {
   color: #bd3857;
 }
 
-#sideNav .navbar-nav .nav-item .nav-link {
+#sideNav #ul .nav-item .nav-link {
   font-weight: 600;
   text-transform: uppercase;
 }
@@ -93,16 +93,16 @@ h2 {
     width: 100%;
     margin-bottom: auto;
   }
-  #sideNav .navbar-collapse .navbar-nav {
+  #sideNav .navbar-collapse #ul {
     flex-direction: column;
     width: 100%;
   }
-/*   #sideNav .navbar-collapse .navbar-nav .nav-item {
+  #sideNav .navbar-collapse #ul .nav-item {
     display: block;
   }
-  #sideNav .navbar-collapse .navbar-nav .nav-item .nav-link {
+  #sideNav .navbar-collapse #ul .nav-item .nav-link {
     display: block;
-  } */
+  }
 }
 
 section.resume-section {
@@ -146,11 +146,16 @@ section.resume-section .resume-item .resume-date {
 .text-primary {
   color: #bd3857 !important;
 }
-
-a {
-  color: #bd3857;
+section.resume-section .subheading > #email {
+  color: #bd3857 ;
 }
 
+a {
+  color: rgba(255,255,255,.5);
+}
+#sideNav #menu #ul .nav-item a:hover ,a:focus ,a:active{
+  color: #757b80;
+}
 a:hover, a:focus, a:active {
   color: #921f3a;
 }
