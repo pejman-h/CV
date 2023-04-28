@@ -18,23 +18,23 @@ function Profilo() {
               per poter lavorare in questo mondo affascinante IT.</p>
             <ul className="list-inline list-social-icons mb-0">
               <li className="list-inline-item">
-                <a href="##">
+                <a href="https://facebook.com/Pejman.Honarpajuh">
                   <span className="fa-stack fa-lg">
                     <i className="fa fa-circle fa-stack-2x"></i>
                     <i className="fa fa-facebook fa-stack-1x fa-inverse"></i>
                   </span>
                 </a>
               </li>
-              <li className="list-inline-item">
+           {/*    <li className="list-inline-item">
                 <a href="##">
                   <span className="fa-stack fa-lg">
                     <i className="fa fa-circle fa-stack-2x"></i>
                     <i className="fa fa-twitter fa-stack-1x fa-inverse"></i>
                   </span>
                 </a>
-              </li>
+              </li> */}
               <li className="list-inline-item">
-                <a href="##">
+                <a href="https://linkedin.com/in/pejman-honarpajuh-1a00b0274">
                   <span className="fa-stack fa-lg">
                     <i className="fa fa-circle fa-stack-2x"></i>
                     <i className="fa fa-linkedin fa-stack-1x fa-inverse"></i>
@@ -42,7 +42,7 @@ function Profilo() {
                 </a>
               </li>
               <li className="list-inline-item">
-                <a href="##">
+                <a href="https://github.com/pejman-h">
                   <span className="fa-stack fa-lg">
                     <i className="fa fa-circle fa-stack-2x"></i>
                     <i className="fa fa-github fa-stack-1x fa-inverse"></i>
