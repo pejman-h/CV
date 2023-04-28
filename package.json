@@ -1,7 +1,7 @@
 {
   "name": "cv",
   "version": "0.1.0",
-  "homepage":"https://github.com/pejman-h/CV.git",
+  "homepage":"https://github.com/pejman-h/react-gh-pages.git",
   "private": true,
   "dependencies": {
     "-": "^0.0.1",
