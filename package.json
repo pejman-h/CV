@@ -1,7 +1,7 @@
 {
   "name": "cv",
   "version": "0.1.0",
-  "homepage":"https://pejman-h.github.io/cv",
+  "homepage": "https://pejman-h.github.io/cv",
   "private": true,
   "dependencies": {
     "-": "^0.0.1",
